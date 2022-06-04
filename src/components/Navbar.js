@@ -18,7 +18,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="/Using.html">이용방법</a>
+            <a href="Using.html">이용방법</a>
           </li>
           <li>
             <a href="https://lime-bit.com/register?st=3E2DAD8A77">시작하기</a>
