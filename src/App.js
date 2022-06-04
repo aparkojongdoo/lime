@@ -7,7 +7,7 @@ import travel_02 from './components/assets/travel-02.jpg';
 import travel_03 from './components/assets/travel-03.jpg';
 import Slider from './components/Slider';
 import Footer from './components/Footer';
-//import Scroll from './components/Scroll';
+import Scroll from './components/Scroll';
 import Cards from './components/Cards';
 import MainArea from './components/MainArea';
 
@@ -16,7 +16,7 @@ function App() {
     <>
       <Navbar />
 
-      
+      <Scroll />
       <MainArea />
       <Hero />
       <Cards />
