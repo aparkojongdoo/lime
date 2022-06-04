@@ -10,17 +10,16 @@ function MainContent() {
       <div className="content">
         <div className="left">
           <SmallHeading
-            title={'업계 최저수수료 레버리지 선물거래 플랫폼'}
+            title={'최저수수료 레버리지 선물거래 플랫폼'}
             identifier={'Before'}
           />
           <h1>
-            스마트한 투자자가 선택한 혁신적인 플랫폼{' '}
+            스마트한 투자자 혁신적인 플랫폼{' '}
             <span className="GradientText">라임빗에서 시작하세요</span>
           </h1>
           <p>
             한국어 지원되는 거래소 "라임빗" 지정가0.018%, 시장가0.036% 현존 하는
-            거래소 중에 수수료 가장 저렴합니다 시작하기에서 회원가입 하시면 현재
-            이벤트 진행중인 수수료 평생 50%할인 적용 받으실 수 있습니다
+            거래소 중에 수수료 가장 저렴합니다
           </p>
         </div>
         <div className="right">
