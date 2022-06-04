@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lime/static/css/main.9b29f80a.css",
+    "main.js": "/lime/static/js/main.1249a733.js",
+    "static/media/marketing.mp4": "/lime/static/media/marketing.976178f95b8a6703d024.mp4",
+    "static/media/travel-02.jpg": "/lime/static/media/travel-02.7c0de423445e198b9f2f.jpg",
+    "static/media/travel-03.jpg": "/lime/static/media/travel-03.d47a86861e17006f05bd.jpg",
+    "static/media/hero-img.png": "/lime/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
+    "static/media/bchain.png": "/lime/static/media/bchain.900e0d57f3f84f5a3072.png",
+    "static/media/image3.jpg": "/lime/static/media/image3.69491806c08a6ff2c660.jpg",
+    "static/media/image2.jpg": "/lime/static/media/image2.67645463c29b2aa7da19.jpg",
+    "static/media/image1.jpg": "/lime/static/media/image1.9bdb9421b2441a63431d.jpg",
+    "index.html": "/lime/index.html",
+    "static/media/circles.svg": "/lime/static/media/circles.be1ff3c5420557bd113822e3e53fbb42.svg",
+    "main.9b29f80a.css.map": "/lime/static/css/main.9b29f80a.css.map",
+    "main.1249a733.js.map": "/lime/static/js/main.1249a733.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b29f80a.css",
+    "static/js/main.1249a733.js"
+  ]
+}
