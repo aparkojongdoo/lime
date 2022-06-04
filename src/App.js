@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Featured from './components/Featured';
+import Hero from './components/Hero';
+import Navbar from './/components/Navbar.js';
+
+import travel_02 from './components/assets/travel-02.jpg';
+import travel_03 from './components/assets/travel-03.jpg';
+import Slider from './components/Slider';
+import Footer from './components/Footer';
+import Scroll from './components/Scroll';
+import Cards from './components/Cards';
+import MainArea from './components/MainArea';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+
+      <Scroll />
+      <MainArea />
+      <Hero />
+      <Cards />
+      <Featured />
+      <Slider
+        imageSrc={travel_02}
+        title={'Be a Frontier.'}
+        subtitle={'Our platform offers a wide variety of unique Experience!'}
+      />
+      <Slider
+        imageSrc={travel_03}
+        title={'Your Dreams Come True'}
+        subtitle={'Think About The Future'}
+        flipped={true}
+      />
+
+      <Footer />
+    </>
   );
 }
 
