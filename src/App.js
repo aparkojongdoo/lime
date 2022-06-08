@@ -7,16 +7,16 @@ import travel_02 from './components/assets/travel-02.jpg';
 import travel_03 from './components/assets/travel-03.jpg';
 import Slider from './components/Slider';
 import Footer from './components/Footer';
-import Scroll from './components/Scroll';
+
 import Cards from './components/Cards';
 import MainArea from './components/MainArea';
+import Using from './components/Using';
 
 function App() {
   return (
     <>
       <Navbar />
 
-      <Scroll />
       <MainArea />
       <Hero />
       <Cards />
@@ -32,6 +32,7 @@ function App() {
         subtitle={'Think About The Future'}
         flipped={true}
       />
+      <Using />
 
       <Footer />
     </>
